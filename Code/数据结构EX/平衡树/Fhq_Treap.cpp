@@ -4,10 +4,10 @@ using namespace std;
 #define rc fhq[x].r
 const int N=1e5+5;
 inline int read(){
-    int x=0,f=1;char ch=getchar();
-    while(!isdigit(ch)){if(ch=='-')f=-1;ch=getchar();}
-    while(isdigit(ch)){x=(x<<1)+(x<<3)+ch-48;ch=getchar();}
-    return x*f;
+  int x=0,f=1;char ch=getchar();
+  while(!isdigit(ch)){if(ch=='-')f=-1;ch=getchar();}
+  while(isdigit(ch)){x=(x<<1)+(x<<3)+(ch-'0');ch=getchar();}
+  return x*f;
 }
 struct node{
   int l,r,val,key,size;
@@ -81,16 +81,14 @@ inline int get_pre(int val){
 //查找先驱
 int main(){
   n=read();
-	for(int i=1,op,val;i<=n;++i){
-		op=read(),val=read();
-		if(op==1){insert(val);}
-		else if(op==3){printf("%d\n",get_rank(val));}
-		else if(op==4){printf("%d\n",get_val(val));}
-		else if(op==5){printf("%d\n",get_pre(val));}
-		else if(op==6){printf("%d\n",get_next(val));}
-		else{del(val);}
-	}
-
-
+  for(int i=1,op,val;i<=n;++i){
+    op=read(),val=read();
+    if(op==1){insert(val);}
+    else if(op==3){printf("%d\n",get_rank(val));}
+    else if(op==4){printf("%d\n",get_val(val));}
+    else if(op==5){printf("%d\n",get_pre(val));}
+    else if(op==6){printf("%d\n",get_next(val));}
+    else{del(val);}
+  }
   return 0;
 }
