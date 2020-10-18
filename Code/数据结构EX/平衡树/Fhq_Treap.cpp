@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include<algorithm>
+#include<iostream>
+#include<cstdio>
+#include<cstring>
 using namespace std;
 #define lc fhq[x].l
 #define rc fhq[x].r
