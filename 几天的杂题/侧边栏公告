@@ -1,0 +1,42 @@
+<script type="text/javascript">
+    window.cnblogsConfig = {
+        GhVersions    : 'v1.3.3', // 版本
+        blogUser      : "NuoCarter", // 用户名
+        blogAvatar    : "https://pic.cnblogs.com/avatar/2233637/20210228001348.png", // 用户头像
+        blogStartDate : "2020-12-02", // 入园时间，年-月-日。入园时间查看方法：鼠标停留园龄时间上，会显示入园时间
+        webpageTitleOnblur: '(oﾟvﾟ)ノ Hi',
+    webpageTitleOnblurTimeOut: 500,
+    webpageTitleFocus: '(*´∇｀*) 欢迎回来！',
+    webpageTitleFocusTimeOut: 1000,
+    webpageIcon: "https://images.cnblogs.com/cnblogs_com/Akamey/1892045/o_210116160704akamey.png",
+    homeTopImg: [
+        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp",
+        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/home_top_bg.webp"
+    ],
+    homeBannerText: [
+        "「暗淡不及星光」,",
+        //"lest you be deemed worthless.",
+        //"我是标语三",
+       // "我是标语四",
+    ],
+    essayTopImg: [
+        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp",
+        "https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@master/img/webp/nothome_top_bg.webp"
+    ],
+    essayTitleStyle: true,
+    bottomBlogroll: [ // 友情链接，[[链接名,链接]....]
+        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+        ["申请坑位", 'https://msg.cnblogs.com/send/BNDong'],
+    ],
+    consoleList: [
+         ['NuoCarter CNBlogs', 'https://www.cnblogs.com/NuoCarter'],
+         ['NuoCarter GitHub', 'https://github.com/NuoCarter'],
+         ['NuoCarter Email', '1727001679@qq.com'],
+    ],
+    advertising: false,
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/gh/BNDong/Cnblogs-Theme-SimpleMemory@v1.3.3/src/script/simpleMemory.min.js" defer></script>
